@@ -20,11 +20,13 @@ This application was initially built to give attendees of [CascadiaFest 2015](ht
 
 Prior to running the app, make sure the following environment variables are configured in your production environment:
 
-``TWILIO_ACCOUNT_SID
+```
+TWILIO_ACCOUNT_SID
 TWILIO_AUTH_TOKEN
 TWILIO_WORKSPACE_SID
 TWILIO_WORKFLOW_SID
-TWILIO_ACTIVITY_IDLE_SID``
+TWILIO_ACTIVITY_IDLE_SID
+```
 
 You can deploy this application to your Node hosting provider of choice. Please note sure fully-qualified URL for your hosted Node app. 
 
